@@ -19,6 +19,18 @@
 		37E7AFCB2C726AD20014B13A /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFCA2C726AD20014B13A /* Exercise.swift */; };
 		37E7AFCD2C7288330014B13A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFCC2C7288330014B13A /* Color.swift */; };
 		37E7AFCF2C7288510014B13A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFCE2C7288510014B13A /* UIColor.swift */; };
+		37E7AFD12C728D000014B13A /* WorkoutListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFD02C728D000014B13A /* WorkoutListScreen.swift */; };
+		37E7AFD32C7290860014B13A /* WorkoutCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFD22C7290860014B13A /* WorkoutCardView.swift */; };
+		37E7AFD52C72AC600014B13A /* WorkoutListHeaderview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFD42C72AC600014B13A /* WorkoutListHeaderview.swift */; };
+		37E7AFD72C72AC990014B13A /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFD62C72AC990014B13A /* HapticManager.swift */; };
+		37E7AFD92C72AF5E0014B13A /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFD82C72AF5E0014B13A /* MenuButtonView.swift */; };
+		37E7AFDB2C72AF720014B13A /* EllipsisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFDA2C72AF720014B13A /* EllipsisView.swift */; };
+		37E7AFDD2C72B9070014B13A /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFDC2C72B9070014B13A /* WorkoutListView.swift */; };
+		37E7AFDF2C72BA790014B13A /* WorkoutEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFDE2C72BA790014B13A /* WorkoutEditView.swift */; };
+		37E7AFE12C72BCAE0014B13A /* WorkoutTypeStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFE02C72BCAE0014B13A /* WorkoutTypeStackView.swift */; };
+		37E7AFE32C72BDAE0014B13A /* WorkoutSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFE22C72BDAE0014B13A /* WorkoutSamples.swift */; };
+		37E7AFE52C72D3400014B13A /* WorkoutTypeSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFE42C72D3400014B13A /* WorkoutTypeSamples.swift */; };
+		37E7AFE72C72D3B00014B13A /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E7AFE62C72D3B00014B13A /* PreviewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +67,18 @@
 		37E7AFCA2C726AD20014B13A /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		37E7AFCC2C7288330014B13A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		37E7AFCE2C7288510014B13A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		37E7AFD02C728D000014B13A /* WorkoutListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListScreen.swift; sourceTree = "<group>"; };
+		37E7AFD22C7290860014B13A /* WorkoutCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardView.swift; sourceTree = "<group>"; };
+		37E7AFD42C72AC600014B13A /* WorkoutListHeaderview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListHeaderview.swift; sourceTree = "<group>"; };
+		37E7AFD62C72AC990014B13A /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		37E7AFD82C72AF5E0014B13A /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		37E7AFDA2C72AF720014B13A /* EllipsisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipsisView.swift; sourceTree = "<group>"; };
+		37E7AFDC2C72B9070014B13A /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
+		37E7AFDE2C72BA790014B13A /* WorkoutEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutEditView.swift; sourceTree = "<group>"; };
+		37E7AFE02C72BCAE0014B13A /* WorkoutTypeStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTypeStackView.swift; sourceTree = "<group>"; };
+		37E7AFE22C72BDAE0014B13A /* WorkoutSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSamples.swift; sourceTree = "<group>"; };
+		37E7AFE42C72D3400014B13A /* WorkoutTypeSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTypeSamples.swift; sourceTree = "<group>"; };
+		37E7AFE62C72D3B00014B13A /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +145,9 @@
 			isa = PBXGroup;
 			children = (
 				37E7AF9F2C7246F40014B13A /* Preview Assets.xcassets */,
+				37E7AFE22C72BDAE0014B13A /* WorkoutSamples.swift */,
+				37E7AFE42C72D3400014B13A /* WorkoutTypeSamples.swift */,
+				37E7AFE62C72D3B00014B13A /* PreviewContainer.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -146,6 +173,13 @@
 			isa = PBXGroup;
 			children = (
 				37E7AF992C7246F30014B13A /* ContentView.swift */,
+				37E7AFD22C7290860014B13A /* WorkoutCardView.swift */,
+				37E7AFD42C72AC600014B13A /* WorkoutListHeaderview.swift */,
+				37E7AFD82C72AF5E0014B13A /* MenuButtonView.swift */,
+				37E7AFDA2C72AF720014B13A /* EllipsisView.swift */,
+				37E7AFDC2C72B9070014B13A /* WorkoutListView.swift */,
+				37E7AFDE2C72BA790014B13A /* WorkoutEditView.swift */,
+				37E7AFE02C72BCAE0014B13A /* WorkoutTypeStackView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +187,7 @@
 		37E7AFC32C7247680014B13A /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				37E7AFD02C728D000014B13A /* WorkoutListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -172,6 +207,7 @@
 			children = (
 				37E7AFCC2C7288330014B13A /* Color.swift */,
 				37E7AFCE2C7288510014B13A /* UIColor.swift */,
+				37E7AFD62C72AC990014B13A /* HapticManager.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -306,13 +342,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E7AFE72C72D3B00014B13A /* PreviewContainer.swift in Sources */,
 				37E7AFCB2C726AD20014B13A /* Exercise.swift in Sources */,
+				37E7AFD12C728D000014B13A /* WorkoutListScreen.swift in Sources */,
 				37E7AFCF2C7288510014B13A /* UIColor.swift in Sources */,
+				37E7AFE12C72BCAE0014B13A /* WorkoutTypeStackView.swift in Sources */,
+				37E7AFD92C72AF5E0014B13A /* MenuButtonView.swift in Sources */,
+				37E7AFD52C72AC600014B13A /* WorkoutListHeaderview.swift in Sources */,
 				37E7AF9A2C7246F30014B13A /* ContentView.swift in Sources */,
 				37E7AF982C7246F30014B13A /* DailyDefianceApp.swift in Sources */,
+				37E7AFDB2C72AF720014B13A /* EllipsisView.swift in Sources */,
+				37E7AFD32C7290860014B13A /* WorkoutCardView.swift in Sources */,
 				37E7AFC92C726AA20014B13A /* JournalEntry.swift in Sources */,
+				37E7AFE32C72BDAE0014B13A /* WorkoutSamples.swift in Sources */,
+				37E7AFDD2C72B9070014B13A /* WorkoutListView.swift in Sources */,
+				37E7AFD72C72AC990014B13A /* HapticManager.swift in Sources */,
 				37E7AFC72C7247AA0014B13A /* Workout.swift in Sources */,
+				37E7AFE52C72D3400014B13A /* WorkoutTypeSamples.swift in Sources */,
 				37E7AFCD2C7288330014B13A /* Color.swift in Sources */,
+				37E7AFDF2C72BA790014B13A /* WorkoutEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

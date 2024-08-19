@@ -8,27 +8,30 @@
 import SwiftUI
 import SwiftData
 
+
 @Model
-class Workout {
-    var title: String
+final class Workout {
+    @Attribute(.unique) var title: String
     var briefDescription: String
     var dateStarting: Date
     var dateCompleted: Date
     var workoutType: WorkoutType.RawValue
     @Relationship(deleteRule: .cascade)
-    var journalEntries: [JournalEntry]?
+    var journalEntries: [JournalEntry]? = []
     @Relationship(deleteRule: .cascade)
-    var exercises: [Exercise]?
+    var exercises: [Exercise]? = []
+    @Transient
+    var workoutsCompleted: Int = 0
     
     init(
         title: String,
-        author: String,
+        briefDescription: String,
         dateStarting: Date = Date.distantFuture,
         dateCompleted: Date = Date.distantPast,
         workoutType: WorkoutType = .CARDIO
     ) {
         self.title = title
-        self.briefDescription = author
+        self.briefDescription = briefDescription
         self.dateStarting = dateStarting
         self.dateCompleted = dateCompleted
         self.workoutType = workoutType.rawValue

@@ -12,7 +12,7 @@ import SwiftUI
 import SwiftData
 
 @Model
-class Genre {
+class Exercise {
     var name: String
     var color: String
     var workouts: [Workout]?
